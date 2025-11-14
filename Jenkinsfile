@@ -41,7 +41,7 @@ pipeline {
 
         }
 
-/*
+
 
         stage('Terraform Apply') {
 
@@ -57,9 +57,9 @@ pipeline {
 
         }
 
-*/
 
-        stage('Terraform Destroy') {
+
+/*        stage('Terraform Destroy') {
 
             steps {
 
@@ -74,7 +74,7 @@ pipeline {
         }
 
     }
- 
+*/
     post {
 
         success {
